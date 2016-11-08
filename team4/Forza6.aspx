@@ -6,7 +6,7 @@
    
     <div id="section">
         <img src="picture/forza6_xbox.jpg" />
-        <h3>Total number: 260 </h3>
+        <h3>Product number: 0202 </h3>
         <br />
         <h3>price:$28</h3>
         <br />

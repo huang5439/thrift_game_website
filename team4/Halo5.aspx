@@ -5,7 +5,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
        <div id="section">
            <img src="picture/halo5_xbox.jpg" />
-           <h3>Total number: 98 </h3>
+           <h3>Product number: 0204 </h3>
         <br />
         <h3>price:$65</h3>
         <br />

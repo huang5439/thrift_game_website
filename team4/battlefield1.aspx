@@ -5,7 +5,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     <div id="section">
         <img src="picture/battlefield_1_early_enlister_deluxe_edition_ps4.jpg" />
-        <h3>Total number: 55 </h3>
+        <h3>product number: 0302 </h3>
         <br />
         <h3>price:$76</h3>
         <br />

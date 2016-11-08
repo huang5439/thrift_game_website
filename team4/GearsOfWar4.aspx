@@ -6,7 +6,7 @@
 
       <div id="section">
           <img src="picture/gears_of_war_4_xbox1.jpg" />
-          <h3>Total number: 230 </h3>
+          <h3>Product number: 0203 </h3>
         <br />
         <h3>price:$46</h3>
         <br />
