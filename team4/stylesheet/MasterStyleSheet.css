@@ -19,10 +19,9 @@
 #nav {
     height: 40px; 
     background-color: steelblue; 
-    font-family: 'Felix Titling'; 
-    font-size: large; 
-    padding-top: 15px; 
-    padding-left: 120px; 
+    font-family:Arial; 
+    font-size:large; 
+    font-weight:500;
 }
 
 #section {
@@ -42,21 +41,25 @@
 }
 
 #nav ul li {
-    display: block; 
+     float:left; 
 }
 
-#nav ul a {
-    float: left;
-    line-height: 25px; 
-    margin-left: 50px; 
+#nav ul li a {
+    display: block; 
+    line-height: 24px; 
     text-align: center; 
     text-decoration: none;  
     color: white; 
+    padding-top:8px;
+    padding-bottom:8px;
+    padding-left:10px;
+    padding-right:10px;
 }
 
 #nav a:hover {
     background-color: white; 
     color: royalblue; 
+    font-size:110%;
 }
 
 

@@ -3,7 +3,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-    <div id="page">
+    <div id="section">
         <img src="picture/call_of_duty-_infinite_warfare.jpg" />
          <h3>Total number: 180</h3>
         <br />

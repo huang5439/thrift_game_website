@@ -4,7 +4,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
    
-    <div id="page">
+    <div id="section">
         <img src="picture/forza6_xbox.jpg" />
         <h3>Total number: 260 </h3>
         <br />

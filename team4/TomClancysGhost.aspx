@@ -3,7 +3,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-        <div id="page">
+        <div id="section">
             <img src="picture/tom_clancy_s_ghost_recon_wildlands_pc_.jpg" />
             <h3>Total number: 340 </h3>
         <br />

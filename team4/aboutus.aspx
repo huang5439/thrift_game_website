@@ -3,7 +3,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-    <div id="content">
+    <div id="section"> <%-- id name should be the same as the part name in master page!!--%>
         <h1>About Us</h1>
         <p>
             Thrift Games has been operating for about 4 years, headquartered in Seattle, WA  where our two co-founders, 

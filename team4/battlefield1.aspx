@@ -3,7 +3,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-    <div id="page">
+    <div id="section">
         <img src="picture/battlefield_1_early_enlister_deluxe_edition_ps4.jpg" />
         <h3>Total number: 55 </h3>
         <br />
