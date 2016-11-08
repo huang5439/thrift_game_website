@@ -1,0 +1,63 @@
+﻿* {margin: 0 auto}
+
+#page {
+    max-width: 1000px; 
+    height: 880px;
+    background-color: lightgray;
+}
+
+#header {
+    background-color: white; 
+    border: darkblue 6px solid; 
+    height: 60px; 
+    text-align: center;   
+    font-size: 50px; 
+    padding-top: 15px; 
+    padding-bottom: 5px;
+}
+
+#nav {
+    height: 40px; 
+    background-color: steelblue; 
+    font-family: 'Felix Titling'; 
+    font-size: large; 
+    padding-top: 15px; 
+    padding-left: 120px; 
+}
+
+#section {
+    height: 700px; 
+}
+
+#footer {
+    height: 80px; 
+    background-color: steelblue; 
+    color: white; 
+    text-align: center;
+    padding-top: 25px;
+}
+
+#nav ul {
+    list-style-type: none;  
+}
+
+#nav ul li {
+    display: block; 
+}
+
+#nav ul a {
+    float: left;
+    line-height: 25px; 
+    margin-left: 50px; 
+    text-align: center; 
+    text-decoration: none;  
+    color: white; 
+}
+
+#nav a:hover {
+    background-color: white; 
+    color: royalblue; 
+}
+
+
+
