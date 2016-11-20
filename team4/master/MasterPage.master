@@ -6,41 +6,39 @@
 <head runat="server">
     <title></title>
     <link href="../stylesheet/MasterStyleSheet.css" rel="stylesheet" />
-    <asp:ContentPlaceHolder id="head" runat="server">
+    <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
-    <form id="form1" runat="server">
     <div id="page">
-    <div id="header">
-        <img src="../picture/THRIFT%20GAMES.jpg" />
-    </div>
+        <div id="header">
+            <img src="../picture/THRIFT%20GAMES.jpg" />
+        </div>
 
-    <div id="nav">
-        <ul>
-            <li><a href="../Default.aspx">Home</a></li>
-            <li><a href="../aboutus.aspx">About Us</a></li>
-            <li><a href="../pc.aspx">PC</a></li>
-            <li><a href="../ps.aspx">PlayStation</a></li>
-            <li><a href="../xbox.aspx">X-BOX</a></li>
-            <li><a href="#">Login/Sign up</a></li>
-            <li><a href="#">Shopping Cart</a></li>
-            <li><a href="#">Customer Service</a></li>
-        </ul>
-    </div>
+        <div id="nav">
+            <ul>
+                <li><a href="../Default.aspx">Home</a></li>
+                <li><a href="../aboutus.aspx">About Us</a></li>
+                <li><a href="../pc.aspx">PC</a></li>
+                <li><a href="../ps.aspx">PlayStation</a></li>
+                <li><a href="../xbox.aspx">X-BOX</a></li>
+                <li><a href="#">Login/Sign up</a></li>
+                <li><a href="../shoppingcart.aspx">Shopping Cart</a></li>
+                <li><a href="#">Customer Service</a></li>
+            </ul>
+        </div>
 
-    <div id="section">
-    <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
-    </asp:ContentPlaceHolder>
-    </div>
-    
-    <div id="footer">
-     <h4><u>Contact Us</u></h4>
-        <p>support@thriftgames.com</p>
-        <p>Open a Support Ticket</p>
-    </div> 
+        <div id="section">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <div id="footer">
+            <h4><u>Contact Us</u></h4>
+            <p>support@thriftgames.com</p>
+            <p>Open a Support Ticket</p>
+        </div>
 
     </div>
-    </form>
 </body>
 </html>

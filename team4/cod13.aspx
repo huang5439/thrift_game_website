@@ -1,20 +1,37 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/master/MasterPage.master" AutoEventWireup="true" CodeFile="cod13.aspx.cs" Inherits="cod13" %>
-
-<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
+ <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+ <script type="text/javascript" src="js/jquery.shop.js"></script>
 </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-    <div id="section">
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
+    <div id="site">
         <img src="picture/call_of_duty-_infinite_warfare.jpg" />
-         <h3>Product number: 0101</h3>
-        <br />
-        <h3>price:$37</h3>
-        <br />
+        <h5>Product number: 0101</h5>
+        <div class="product-description" data-name="call_of_duty-_infinite_warfare" data-price="37">
+            <h3 class="product-name">Call of duty:Infinite Warfare</h3>
+            <p class="product-price">$37</p>
+            <form class="add-to-cart" action="shoppingcart.aspx" method="post">
+                <div>
+                    <label for="qty-4">Qty</label>
+                    <input type="text" name="qty-4" id="qty-4" class="qty" value="1" />
+                </div>
+                <p>
+                    <input type="submit" value="Add to cart" class="btn" />
+                </p>
+            </form>
+        </div>
         <h2>Production Description</h2>
-        <p>About Call of Duty: Infinite Warfare <br /> 
-            Infinity Ward, the award-winning studio that helped create the blockbuster Call of Duty® franchise, <br />
-            reaches new heights with Call of Duty: Infinite Warfare. <br />
-            At its core, Infinite Warfare returns to the roots of the franchise where cinematic, <br />
-            immersive storytelling takes center stage as told through an unfolding large-scale war and <br />
+        <p>
+            About Call of Duty: Infinite Warfare
+            <br />
+            Infinity Ward, the award-winning studio that helped create the blockbuster Call of Duty® franchise,
+            <br />
+            reaches new heights with Call of Duty: Infinite Warfare.
+            <br />
+            At its core, Infinite Warfare returns to the roots of the franchise where cinematic,
+            <br />
+            immersive storytelling takes center stage as told through an unfolding large-scale war and
+            <br />
             epic battles that deliver an authentic Call of Duty experience.<br />
         </p>
     </div>

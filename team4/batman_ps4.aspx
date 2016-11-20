@@ -1,21 +1,34 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/master/MasterPage.master" AutoEventWireup="true" CodeFile="batman_ps4.aspx.cs" Inherits="batman_ps4" %>
 
-<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.shop.js"></script>
 </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-    <div id="section">
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
+    <div id="site">
         <img src="picture/batman_arkham_vr_ps4.jpg" />
-        <h3>Product number: 0301 </h3>
-        <br />
-        <h3>price:$18</h3>
-        <br />
+        <h5>Product number: 0301 </h5>
+        <div class="product-description" data-name="Batman Arkham VR" data-price="18">
+            <h3 class="product-name">Batman Arkham VR</h3>
+            <p class="product-price">$18</p>
+            <form class="add-to-cart" action="shoppingcart.aspx" method="post">
+                <div>
+                    <label for="qty-1">Qty</label>
+                    <input type="text" name="qty-1" id="qty-1" class="qty" value="1" />
+                </div>
+                <p>
+                    <input type="submit" value="Add to cart" class="btn" />
+                </p>
+            </form>
+        </div>
         <h2>Production Description</h2>
-        <p>NOTE: Only works with UK PSN accounts.<br />
-        IMPORTANT You’ll need PlayStation®VR and a PlayStation®Camera to play <br />
-        Batman: Arkham VR immerses you in the Dark Knight’s Universe and redefines what it means to be the Batman.<br />
-        Experience Gotham City through the eyes of the World’s Greatest Detective in an all new Arkham mystery.<br />
-        Think like Batman. Utilize his legendary gadgets in Virtual Reality to unravel a plot that threatens the lives of Batman’s closest allies.
+        <p>
+            NOTE: Only works with UK PSN accounts.<br />
+            IMPORTANT You’ll need PlayStation®VR and a PlayStation®Camera to play
+            <br />
+            Batman: Arkham VR immerses you in the Dark Knight’s Universe and redefines what it means to be the Batman.<br />
+            Experience Gotham City through the eyes of the World’s Greatest Detective in an all new Arkham mystery.<br />
+            Think like Batman. 
         </p>
     </div>
 </asp:Content>
-
