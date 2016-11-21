@@ -1,14 +1,26 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/master/MasterPage.master" AutoEventWireup="true" CodeFile="RiseSonOfRome.aspx.cs" Inherits="RiseSonOfRome" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/jquery.shop.js"></script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
-    <div id="section">
+    <div id="site">
         <img src="picture/rise_son_of_rome_xbox.jpg" />
-        <h3>Product number: 0205 </h3>
-        <br />
-        <h3>price:$36</h3>
-        <br />
+        <h5>Product number: 0205</h5>
+        <div class="product-description" data-name="Rise:Son of Rome(Xbox One)" data-price="36">
+            <h3 class="product-name">Rise:Son of Rome(Xbox One)</h3>
+            <p class="product-price">$36</p>
+            <form class="add-to-cart" action="shoppingcart.aspx" method="post">
+                <div>
+                    <label for="qty-12">Qty</label>
+                    <input type="text" name="qty-12" id="qty-12" class="qty" value="1" />
+                </div>
+                <p>
+                    <input type="submit" value="Add to cart" class="btn" />
+                </p>
+            </form>
+        </div>
         <h2>Production Description</h2>
         <p>
             Journey to the heart of the Roman Empire and experience the brutality of battle like never before 

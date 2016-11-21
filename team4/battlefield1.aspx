@@ -1,14 +1,14 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/master/MasterPage.master" AutoEventWireup="true" CodeFile="battlefield1.aspx.cs" Inherits="battlefield1" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-    <script type="text/javascript" src="js/jquery.shop.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/jquery.shop.js"></script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     <div id="site">
       <img src="picture/battlefield_1_early_enlister_deluxe_edition_ps4.jpg" />
         <h5>Product number: 0302 </h5>
-        <div class="product-description" data-name="battlefield_1" data-price="76">
+        <div class="product-description" data-name="Battlefield 1" data-price="76">
             <h3 class="product-name">Battlefield 1</h3>
             <p class="product-price">$76</p>
             <form class="add-to-cart" action="shoppingcart.aspx" method="post">

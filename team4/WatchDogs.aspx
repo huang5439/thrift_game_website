@@ -1,14 +1,26 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/master/MasterPage.master" AutoEventWireup="true" CodeFile="WatchDogs.aspx.cs" Inherits="WatchDogs" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/jquery.shop.js"></script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-      <div id="section">
-          <img src="picture/watch_dogs_2_pc.jpg" />
-          <h3>Product number: 0104 </h3>
-        <br />
-        <h3>price:$42</h3>
-        <br />
+    <div id="site">
+         <img src="picture/watch_dogs_2_pc.jpg" />
+        <h5>Product number: 0104</h5>
+        <div class="product-description" data-name="Watch Dogs 2" data-price="42">
+            <h3 class="product-name">Watch Dogs 2</h3>
+            <p class="product-price">$42</p>
+            <form class="add-to-cart" action="shoppingcart.aspx" method="post">
+                <div>
+                    <label for="qty-14">Qty</label>
+                    <input type="text" name="qty-14" id="qty-14" class="qty" value="1" />
+                </div>
+                <p>
+                    <input type="submit" value="Add to cart" class="btn" />
+                </p>
+            </form>
+        </div>
        <h2>Production Description</h2>
        <p>Use hacking as a weapon in the massive & dynamic open world of Watch Dogs 2. <br />
 In 2016, ctOS 2.0, an advanced operating system networking city infrastructure, was implemented in several US cities to create a safer, more efficient metropolis. <br />

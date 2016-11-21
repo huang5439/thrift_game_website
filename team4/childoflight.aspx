@@ -1,14 +1,14 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/master/MasterPage.master" AutoEventWireup="true" CodeFile="childoflight.aspx.cs" Inherits="childoflight" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
- <script type="text/javascript" src="js/jquery.shop.js"></script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/jquery.shop.js"></script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     <div id="site">
         <img src="picture/child_of_light_ps.jpg" />
         <h5>Product number: 0303 </h5>
-        <div class="product-description" data-name="child_of_light_ps4" data-price="24">
+        <div class="product-description" data-name="Child of light(PS4)" data-price="24">
             <h3 class="product-name">Child of Light(PS4)</h3>
             <p class="product-price">$24</p>
             <form class="add-to-cart" action="shoppingcart.aspx" method="post">

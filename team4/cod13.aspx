@@ -1,13 +1,13 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/master/MasterPage.master" AutoEventWireup="true" CodeFile="cod13.aspx.cs" Inherits="cod13" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
- <script type="text/javascript" src="js/jquery.shop.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/jquery.shop.js"></script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
     <div id="site">
         <img src="picture/call_of_duty-_infinite_warfare.jpg" />
         <h5>Product number: 0101</h5>
-        <div class="product-description" data-name="call_of_duty-_infinite_warfare" data-price="37">
+        <div class="product-description" data-name="Call of duty:Infinite Warfare" data-price="37">
             <h3 class="product-name">Call of duty:Infinite Warfare</h3>
             <p class="product-price">$37</p>
             <form class="add-to-cart" action="shoppingcart.aspx" method="post">
