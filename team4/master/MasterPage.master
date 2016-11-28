@@ -8,6 +8,8 @@
     <link href="../stylesheet/MasterStyleSheet.css" rel="stylesheet" />
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
+    <link href="../picture/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
 </head>
 <body>
     <div id="page">
