@@ -6,7 +6,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
      <div id="site">
-        <img src="picture/cod_infinite_warfare_ps4.jpg" />
+    <img src="picture/cod_infinite_warfare_ps4.jpg" />
         <h5>Product number: 0304</h5>
         <div class="product-description" data-name="Call of duty:infinite Warfare_ps4" data-price="47">
             <h3 class="product-name">Call of duty:Infinite Warfare(PS4)</h3>

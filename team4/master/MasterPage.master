@@ -24,7 +24,7 @@
                 <li><a href="../xbox.aspx">Xbox</a></li>
                 <li><a href="#">Login/Sign up</a></li>
                 <li><a href="../shoppingcart.aspx">Shopping Cart</a></li>
-                <li><a href="#">Customer Service</a></li>
+                <li><a href="../customer.aspx">Customer Service</a></li>
             </ul>
         </div>
 
