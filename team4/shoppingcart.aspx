@@ -32,8 +32,12 @@
 				<li>
 					<a href="Default.aspx" class="btn">Continue Shopping</a>
 				</li>
+                <li>
+					<a href="checkout.aspx" class="btn">Checkout</a>
+				</li>
 			</ul>
 		</form>
+       
     </div>
 </asp:Content>
 

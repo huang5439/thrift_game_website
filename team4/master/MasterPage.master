@@ -1,4 +1,6 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="master_MasterPage" %>
+﻿
+
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="master_MasterPage" %>
 
 <!DOCTYPE html>
 
@@ -9,7 +11,6 @@
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
     <link href="../picture/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-
 </head>
 <body>
     <div id="page">
@@ -23,10 +24,10 @@
                 <li><a href="../aboutus.aspx">About Us</a></li>
                 <li><a href="../pc.aspx">PC</a></li>
                 <li><a href="../ps.aspx">PlayStation</a></li>
-                <li><a href="../xbox.aspx">Xbox</a></li>
-                <li><a href="#">Login/Sign up</a></li>
+                <li><a href="../xbox.aspx">Xbox</a></li>                
                 <li><a href="../shoppingcart.aspx">Shopping Cart</a></li>
                 <li><a href="../customer.aspx">Customer Service</a></li>
+                <li><a href="#">Login/Sign up</a></li>
             </ul>
         </div>
 
@@ -36,9 +37,8 @@
         </div>
 
         <div id="footer">
-            <h4><u>Contact Us</u></h4>
+            <h4><u><a href="../customer.aspx">Contact Us</a></u></h4>
             <p>support@thriftgames.com</p>
-            <p>Open a Support Ticket</p>
         </div>
 
     </div>

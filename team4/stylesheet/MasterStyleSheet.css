@@ -4,14 +4,14 @@
 
 #page {
     max-width: 1000px; 
-    height: 880px;
+    height: 900px;
     background-color: lightgray;
 }
 
 #header {
     background-color: white; 
     border: darkblue 6px solid; 
-    height: 60px; 
+    height: 80px; 
     text-align: center;   
     padding-top: 15px; 
     padding-bottom: 5px;
