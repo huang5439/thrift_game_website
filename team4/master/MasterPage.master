@@ -1,6 +1,4 @@
-﻿
-
-<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="master_MasterPage" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="master_MasterPage" %>
 
 <!DOCTYPE html>
 
@@ -8,6 +6,9 @@
 <head runat="server">
     <title></title>
     <link href="../stylesheet/MasterStyleSheet.css" rel="stylesheet" />
+    <link href="../stylesheet/w3.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
     <link href="../picture/favicon.ico" rel="shortcut icon" type="image/x-icon" />
@@ -24,10 +25,10 @@
                 <li><a href="../aboutus.aspx">About Us</a></li>
                 <li><a href="../pc.aspx">PC</a></li>
                 <li><a href="../ps.aspx">PlayStation</a></li>
-                <li><a href="../xbox.aspx">Xbox</a></li>                
-                <li><a href="../shoppingcart.aspx">Shopping Cart</a></li>
+                <li><a href="../xbox.aspx">Xbox</a></li>
                 <li><a href="../customer.aspx">Customer Service</a></li>
                 <li><a href="#">Login/Sign up</a></li>
+                <li><a href="../shoppingcart.aspx"><i class="fa fa-shopping-cart"></i></a></li>
             </ul>
         </div>
 
@@ -37,8 +38,15 @@
         </div>
 
         <div id="footer">
-            <h4><u><a href="../customer.aspx">Contact Us</a></u></h4>
-            <p>support@thriftgames.com</p>
+            <h6>&copy 2012 - 2016 thriftgames.com</h6>
+            <div class="w3-section w3-xlarge">
+                <i class="fa fa-facebook-official w3-hover-text-indigo"></i>
+                <i class="fa fa-instagram w3-hover-text-purple"></i>
+                <i class="fa fa-pinterest-p w3-hover-text-red"></i>
+                <i class="fa fa-twitter w3-hover-text-light-blue"></i>
+                <i class="fa fa-wechat w3-hover-text-green"></i>
+                <i class="fa fa-weibo w3-hover-text-yellow"></i>
+            </div>
         </div>
 
     </div>

@@ -13,7 +13,7 @@
                         <a href="battlefield1.aspx"><img src="picture/battlefield_1_early_enlister_deluxe_edition_ps4.jpg" 
                             style= "width: 175px; height:225px" class="w3-hover-opacity"/></a>
                         <br />
-                        Battlefield 1: Deluxe edition<br />
+                        Battlefield 1: Deluxe<br />
                         Price:$76</td>
                     <td>
                         <a href="childoflight.aspx"><img src="picture/child_of_light_ps.jpg" 
@@ -44,7 +44,7 @@
                                 style= "width: 175px; height:225px" class="w3-hover-opacity"/>
                         </a>
                         <br />
-                        Call of Duty: Infinite Warfare<br />
+                        Call of Duty 13<br />
                         Price:$47</td>
                 </tr>
             </table>

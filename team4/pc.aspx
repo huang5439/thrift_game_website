@@ -12,7 +12,7 @@
                     <td>
                         <a href="cod13.aspx"><img src="picture/call_of_duty-_infinite_warfare.jpg" style= "width: 175px; height:225px" class="w3-hover-opacity"/></a>
                         <br />
-                        Call of Duty:Infinite Warfare<br />
+                        Call of Duty 13<br />
                         Price:$37</td>
                     <td>
                         <a href="FootballManager.aspx"><img src="picture/football_manager_2017_pc.jpg" 
