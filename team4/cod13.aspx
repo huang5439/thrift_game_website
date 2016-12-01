@@ -10,17 +10,19 @@
         <h5>Product number: 0101</h5>
         <div class="product-description" data-name="Call of duty:Infinite Warfare" data-price="37">
             <h3 class="product-name">Call of duty:Infinite Warfare</h3>
-            <p class="product-price">$37</p>
+            <p class="product-price w3-text-red">$37</p>
             <form class="add-to-cart" action="shoppingcart.aspx" method="post">
                 <div>
                     <label for="qty-4">Qty</label>
                     <input type="text" name="qty-4" id="qty-4" class="qty" value="1" />
                 </div>
+                <br />
                 <p>
                     <input type="submit" value="Add to cart" class="btn" />
                 </p>
             </form>
         </div>
+        <hr />
         <h2>Production Description</h2>
         <p>
             About Call of Duty: Infinite Warfare

@@ -5,7 +5,9 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
     <div id="section">
-        <h2>PC Games</h2>
+        <br />
+        <h2 class="w3-center">PC Games</h2>
+        <hr />
         <div id="pcgame">
             <table>
                 <tr>

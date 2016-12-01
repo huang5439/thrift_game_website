@@ -11,17 +11,19 @@
         <h5>Product number: 0102</h5>
         <div class="product-description" data-name="Football Manager 2017" data-price="45">
             <h3 class="product-name">Football Manager 2017</h3>
-            <p class="product-price">$45</p>
+            <p class="product-price w3-text-red">$45</p>
             <form class="add-to-cart" action="shoppingcart.aspx" method="post">
                 <div>
                     <label for="qty-8">Qty</label>
                     <input type="text" name="qty-8" id="qty-8" class="qty" value="1" />
                 </div>
+                <br />
                 <p>
                     <input type="submit" value="Add to cart" class="btn" />
                 </p>
             </form>
         </div>
+        <hr />
        <h2>Production Description</h2>
        <p>Take control of your favourite football team in Football Manager 2017, the most realistic and immersive football management game to date. It’s the closest thing to doing the job for real! <br />
            With over 2,500 real clubs to manage and over 500,000 real footballers and staff to sign, Football Manager 2017 elevates you into a living, breathing world of football management with you at the centre.

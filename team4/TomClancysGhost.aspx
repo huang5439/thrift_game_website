@@ -11,17 +11,19 @@
         <h5>Product number: 0103</h5>
         <div class="product-description" data-name="Tom clancy's Ghost Recon:Wildlands" data-price="38">
             <h3 class="product-name">Tom clancy's Ghost Recon:Wildlands</h3>
-            <p class="product-price">$38</p>
+            <p class="product-price w3-text-red">$38</p>
             <form class="add-to-cart" action="shoppingcart.aspx" method="post">
                 <div>
                     <label for="qty-13">Qty</label>
                     <input type="text" name="qty-13" id="qty-13" class="qty" value="1" />
                 </div>
+                <br />
                 <p>
                     <input type="submit" value="Add to cart" class="btn" />
                 </p>
             </form>
         </div>
+        <hr />
        <h2>Production Description</h2>
        <p>Tom Clancy’s Ghost Recon: Wildlands™ takes place in the expansive, gritty and vibrant backdrop of Bolivia, South America. <br />
            The influential and vicious Santa Blanca Mexican drug Cartel has turned the country into a narco-state, leading to lawlessness, fear, injustice and violence. <br />

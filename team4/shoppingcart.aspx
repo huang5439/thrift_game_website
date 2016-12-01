@@ -3,10 +3,12 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="js/jquery.shop.js"></script>
+    <link href="stylesheet/cart.css" rel="stylesheet" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
     <div id="site">
-     	<h1>Shopping Cart</h1>
+        <br />
+     	<h1 class="w3-center">Shopping Cart</h1>
 		<form id="shopping-cart" action="shoppingcart.aspx" method="post">
 			<table class="shopping-cart">
 			  <thead>
@@ -20,7 +22,7 @@
 			  </tbody>
 			</table>
 			<p id="sub-total">
-				<strong>Subtotal:</strong><span id="stotal"></span>
+				Subtotal: <span id="stotal"></span>
 			</p>
 			<ul id="shopping-cart-actions">
 				<li>
@@ -37,7 +39,6 @@
 				</li>
 			</ul>
 		</form>
-       
     </div>
 </asp:Content>
 

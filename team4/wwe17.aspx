@@ -11,17 +11,19 @@
         <h5>Product number: 0105</h5>
         <div class="product-description" data-name="WWE 2K17" data-price="55">
             <h3 class="product-name">WWE 2K17</h3>
-            <p class="product-price">$55</p>
+            <p class="product-price w3-text-red">$55</p>
             <form class="add-to-cart" action="shoppingcart.aspx" method="post">
                 <div>
                     <label for="qty-15">Qty</label>
                     <input type="text" name="qty-15" id="qty-15" class="qty" value="1" />
                 </div>
+                <br />
                 <p>
                     <input type="submit" value="Add to cart" class="btn" />
                 </p>
             </form>
         </div>
+         <hr />
         <h2>Production Description</h2>
         <p>Coming off the heels of WWE 2K16, which earned critical press and fan acclaim - including an 8.8 out of 10 from IGN.com <br />
             - WWE 2K17 arrives as the reigning and defending flagship WWE video game franchise champion with stunning graphics, <br />

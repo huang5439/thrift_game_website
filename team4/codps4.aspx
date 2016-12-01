@@ -11,17 +11,19 @@
         <h5>Product number: 0304</h5>
         <div class="product-description" data-name="Call of duty:infinite Warfare_ps4" data-price="47">
             <h3 class="product-name">Call of duty:Infinite Warfare(PS4)</h3>
-            <p class="product-price">$47</p>
+            <p class="product-price w3-text-red">$47</p>
             <form class="add-to-cart" action="shoppingcart.aspx" method="post">
                 <div>
                     <label for="qty-5">Qty</label>
                     <input type="text" name="qty-5" id="qty-5" class="qty" value="1" />
                 </div>
+                <br />
                 <p>
                     <input type="submit" value="Add to cart" class="btn" />
                 </p>
             </form>
         </div>
+         <hr />
         <h2>Production Description</h2>
         <p>Call of Duty: Infinite Warfare delivers something for every Call of Duty fan with three unique game modes: <br />
             Campaign, Multiplayer, and Zombies. Delivering a rich and engaging narrative in a setting unlike anything to date in a Call of Duty game, <br />

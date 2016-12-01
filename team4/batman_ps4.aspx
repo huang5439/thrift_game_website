@@ -11,17 +11,19 @@
         <h5>Product number: 0301 </h5>
         <div class="product-description" data-name="Batman Arkham VR(PS4)" data-price="18">
             <h3 class="product-name">Batman Arkham VR</h3>
-            <p class="product-price">$18</p>
+            <p class="product-price w3-text-red">$18</p>
             <form class="add-to-cart" action="shoppingcart.aspx" method="post">
                 <div>
                     <label for="qty-1">Qty</label>
                     <input type="text" name="qty-1" id="qty-1" class="qty" value="1" />
                 </div>
-                <p>
+                <br />
+                <p >
                     <input type="submit" value="Add to cart" class="btn" />
                 </p>
             </form>
         </div>
+        <hr />
         <h2>Production Description</h2>
         <p>
             NOTE: Only works with UK PSN accounts.<br />

@@ -13,6 +13,7 @@
 
     <div id="section">
         <h3 class="w3-center">Most Popular</h3>
+        <hr />
             <div class="slider1">
                 <div class="slide">
                     <a href="FootballManager.aspx"><img src="picture/football_manager_2017_pc.jpg" style= "width: 175px; height:225px" class="w3-hover-opacity" /></a></div>
@@ -44,6 +45,7 @@
         </script>
 
         <h3 class="w3-center">New Products in Stock</h3>
+        <hr />
         <asp:Table runat="server">
             <asp:TableRow>
                 <asp:TableCell> 

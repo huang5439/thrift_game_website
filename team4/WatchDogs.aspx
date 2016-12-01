@@ -11,17 +11,19 @@
         <h5>Product number: 0104</h5>
         <div class="product-description" data-name="Watch Dogs 2" data-price="42">
             <h3 class="product-name">Watch Dogs 2</h3>
-            <p class="product-price">$42</p>
+            <p class="product-price w3-text-red">$42</p>
             <form class="add-to-cart" action="shoppingcart.aspx" method="post">
                 <div>
                     <label for="qty-14">Qty</label>
                     <input type="text" name="qty-14" id="qty-14" class="qty" value="1" />
                 </div>
+                <br />
                 <p>
                     <input type="submit" value="Add to cart" class="btn" />
                 </p>
             </form>
         </div>
+        <hr />
        <h2>Production Description</h2>
        <p>Use hacking as a weapon in the massive & dynamic open world of Watch Dogs 2. <br />
 In 2016, ctOS 2.0, an advanced operating system networking city infrastructure, was implemented in several US cities to create a safer, more efficient metropolis. <br />
