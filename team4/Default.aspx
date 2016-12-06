@@ -12,7 +12,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
 
     <div id="section">
-        <h3 class="w3-center">Most Popular</h3>
+        <h3 class="w3-center w3-padding-top">Most Popular</h3>
         <hr />
             <div class="slider1">
                 <div class="slide">

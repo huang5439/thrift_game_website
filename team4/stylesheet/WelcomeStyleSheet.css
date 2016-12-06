@@ -1,15 +1,16 @@
 ﻿#section {
-    padding-top: 50px; 
     text-align: center; 
 }
 #WTitle {
-    color: white; 
+    color: navy; 
+    font-weight:bold;
     font-size: xx-large; 
     padding-bottom: 30px; 
     font-family: 'Baskerville Old Face' 
 }
 
 .Wparagraph {
+    font-style:italic;
     font-size: larger; 
     font-family: 'Baskerville Old Face';
     padding-bottom: 30px; 
@@ -18,6 +19,10 @@
 .Wlink{
     padding-top: 30px; 
     font-size: x-large; 
-    color: white;
+    color: red;
     text-decoration:underline; 
+}
+
+h2 {
+    padding-top:30px;
 }

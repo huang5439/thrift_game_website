@@ -28,7 +28,7 @@
         <br />
         <br />
         <hr class="w3-opacity" />
-        <form action="#" target="_blank">
+        <form action="message.aspx" target="_blank">
             <div class="w3-group">
                 <label>Name</label>
                 <input class="w3-input w3-border" type="text" name="Name" required autofocus />
