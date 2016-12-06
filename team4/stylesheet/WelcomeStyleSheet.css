@@ -1,0 +1,23 @@
+﻿#section {
+    padding-top: 50px; 
+    text-align: center; 
+}
+#WTitle {
+    color: white; 
+    font-size: xx-large; 
+    padding-bottom: 30px; 
+    font-family: 'Baskerville Old Face' 
+}
+
+.Wparagraph {
+    font-size: larger; 
+    font-family: 'Baskerville Old Face';
+    padding-bottom: 30px; 
+}
+
+.Wlink{
+    padding-top: 30px; 
+    font-size: x-large; 
+    color: white;
+    text-decoration:underline; 
+}

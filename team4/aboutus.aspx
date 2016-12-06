@@ -1,12 +1,19 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/master/MasterPage.master" AutoEventWireup="true" CodeFile="aboutus.aspx.cs" Inherits="aboutus" %>
 
-<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
+    <link href="stylesheet/aboutus.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-    <div id="section"> <%-- id name should be the same as the part name in master page!!--%>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
+    
+        
+    <div id="section">
+        <%-- id name should be the same as the part name in master page!!--%>
         <br />
-        <h1 class="w3-center">About Us</h1>
+        <div id="flip">
+        <h1 class="w3-center">About Us</h1></div>
         <hr />
+        <div id="panel">
         <p class="w3-padding">
             Thrift Games has been operating for about 4 years, headquartered in Seattle, WA  where our two co-founders, 
             Jingcheng Huang and Nilisha Maknojia, started the business. 
@@ -28,9 +35,23 @@
             We allow the customer to select from PayPal or their choice of credit card. 
             The customer will receive their key within minutes, however if there is a delay that is due to a security check within our system.  
             This allows for our customers to receive their serial numbers in a secure and efficient manner. 
-        </p>
-        <img class="w3-padding" src="picture/seattle.jpg" />
+        </p> 
+
+        
+            <div id="image">
+                <img src="picture/seattle.jpg" />
+
+            </div>
+        </div>
 
     </div>
+
+    <script> 
+        $(document).ready(function () {
+            $('#flip').click(function () {
+                $('#panel').slideToggle();
+            })
+        });
+    </script>
 </asp:Content>
 

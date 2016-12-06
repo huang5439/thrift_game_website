@@ -1,0 +1,59 @@
+﻿* {
+    margin: 0 auto;
+}
+label {
+    float:left;
+    width:10em;
+    text-align:right;
+    color:navy;
+    font-weight:bold;
+}
+
+input {
+    margin-left:1em;
+    margin-bottom:0.5em;
+
+}
+
+form {
+    padding-left:300px;
+}
+
+h3 {
+    padding-left:100px;
+    padding-top:30px;
+    padding-bottom:30px;
+    font-family:sans-serif;
+}
+
+#link {
+    padding-top:20px;
+    text-align:center;
+    font-family:sans-serif;
+    font-weight:bold;
+    color:navy;
+    font-size:large;
+}
+
+p {
+    padding-left:120px;
+    padding-top:20px;
+}
+
+.button {
+    box-shadow: 2px 2px 0 navy;
+    background-color:silver;
+}
+
+h4 {
+    text-align:center;
+    padding-top:30px;
+    font-family:sans-serif;
+}
+
+#word {
+    padding-left:60px;
+    padding-bottom:10px;
+    font-style:italic;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

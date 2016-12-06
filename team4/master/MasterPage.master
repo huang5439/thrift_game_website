@@ -11,12 +11,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
-    <link href="../picture/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link href="../picture/Favicon.png" rel="shortcut icon" type="image/x-icon" />
 </head>
 <body>
     <div id="page">
         <div id="header">
-            <img src="../picture/THRIFT%20GAMES.jpg" />
+            <img src="../picture/THRIFT-2.jpg" />
         </div>
 
         <div id="nav">
@@ -27,7 +27,7 @@
                 <li><a href="../ps.aspx">PlayStation</a></li>
                 <li><a href="../xbox.aspx">Xbox</a></li>
                 <li><a href="../customer.aspx">Customer Service</a></li>
-                <li><a href="#">Login/Sign up</a></li>
+                <li><a href="../LoginPage.aspx">Login/Sign up</a></li>
                 <li><a href="../shoppingcart.aspx"><i class="fa fa-shopping-cart"></i></a></li>
             </ul>
         </div>
