@@ -24,7 +24,7 @@
             </form>
         </div>
         <hr />
-        <h2>Production Description</h2>
+        <h2>Product Description</h2>
         <p>The Black Queen has stolen the Sun, the Moon and the Stars. <br />
             You play as Aurora, a young princess with a pure heart whose soul is brought to the kingdom of Lemuria. <br />
             Embark on a quest to recapture the three sources of light, defeat the Black Queen and restore the kingdom of Lemuria.<br />

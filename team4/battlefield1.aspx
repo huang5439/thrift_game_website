@@ -24,7 +24,7 @@
             </form>
         </div>
         <hr />
-        <h2>Production Description</h2>
+        <h2>Product Description</h2>
         <p>Battlefield 1 takes you back to The Great War, WW1, where new technology and worldwide conflict changed the face of warfare forever.<br /> 
             Take part in every battle, control every massive vehicle, and execute every maneuver that turns an entire fight around. 
             The whole world is at war – see what’s beyond the trenches.<br />

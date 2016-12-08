@@ -24,7 +24,7 @@
             </form>
         </div>
         <hr />
-        <h2>Production Description</h2>
+        <h2>Product Description</h2>
         <p>
             A new saga begins for one of the most acclaimed video game franchises in history.
             <br />

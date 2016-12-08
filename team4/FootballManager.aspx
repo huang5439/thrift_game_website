@@ -24,7 +24,7 @@
             </form>
         </div>
         <hr />
-       <h2>Production Description</h2>
+       <h2>Product Description</h2>
        <p>Take control of your favourite football team in Football Manager 2017, the most realistic and immersive football management game to date. It’s the closest thing to doing the job for real! <br />
            With over 2,500 real clubs to manage and over 500,000 real footballers and staff to sign, Football Manager 2017 elevates you into a living, breathing world of football management with you at the centre.
  </p>

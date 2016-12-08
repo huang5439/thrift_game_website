@@ -24,7 +24,7 @@
             </form>
         </div>
         <hr />
-       <h2>Production Description</h2>
+       <h2>Product Description</h2>
        <p>Bethesda Game Studios, the award-winning creators of Fallout 3 and The Elder Scrolls V: Skyrim, welcome you to the world of Fallout 4 – their most ambitious game ever, and the next generation of open-world gaming. <br />
             As the sole survivor of Vault 111, you enter a world destroyed by nuclear war. Every second is a fight for survival, and every choice is yours. Only you can rebuild and determine the fate of the Wasteland. Welcome home.
        </p>

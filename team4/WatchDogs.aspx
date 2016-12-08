@@ -24,7 +24,7 @@
             </form>
         </div>
         <hr />
-       <h2>Production Description</h2>
+       <h2>Product Description</h2>
        <p>Use hacking as a weapon in the massive & dynamic open world of Watch Dogs 2. <br />
 In 2016, ctOS 2.0, an advanced operating system networking city infrastructure, was implemented in several US cities to create a safer, more efficient metropolis. <br />
 Play as Marcus Holloway, a brilliant young hacker living in the birthplace of the tech revolution, the San Francisco Bay Area. Team up with Dedsec, a notorious group of hackers, and expose the hidden dangers of ctOS 2.0, which, in the hands of corrupt corporations, is being wrongfully used to monitor and manipulate citizens on a massive scale. <br />

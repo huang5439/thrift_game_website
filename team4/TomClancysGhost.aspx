@@ -24,7 +24,7 @@
             </form>
         </div>
         <hr />
-       <h2>Production Description</h2>
+       <h2>Product Description</h2>
        <p>Tom Clancy’s Ghost Recon: Wildlands™ takes place in the expansive, gritty and vibrant backdrop of Bolivia, South America. <br />
            The influential and vicious Santa Blanca Mexican drug Cartel has turned the country into a narco-state, leading to lawlessness, fear, injustice and violence. <br />
            You are sent behind the enemy lines as a member of The Ghosts, a legendary US Elite Special Operations team, 

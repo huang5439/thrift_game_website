@@ -24,7 +24,7 @@
             </form>
         </div>
         <hr />
-        <h2>Production Description</h2>
+        <h2>Product Description</h2>
         <p>
             Journey to the heart of the Roman Empire and experience the brutality of battle like never before 
             <br />

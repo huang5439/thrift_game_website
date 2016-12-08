@@ -24,7 +24,7 @@
             </form>
         </div>
          <hr />
-        <h2>Production Description</h2>
+        <h2>Product Description</h2>
         <p>Coming off the heels of WWE 2K16, which earned critical press and fan acclaim - including an 8.8 out of 10 from IGN.com <br />
             - WWE 2K17 arrives as the reigning and defending flagship WWE video game franchise champion with stunning graphics, <br />
             ultra-authentic gameplay and a massive roster of WWE and NXT's popular Superstars and Legends<br />

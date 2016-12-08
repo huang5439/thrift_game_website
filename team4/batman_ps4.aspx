@@ -24,7 +24,7 @@
             </form>
         </div>
         <hr />
-        <h2>Production Description</h2>
+        <h2>Product Description</h2>
         <p>
             NOTE: Only works with UK PSN accounts.<br />
             IMPORTANT You’ll need PlayStation®VR and a PlayStation®Camera to play

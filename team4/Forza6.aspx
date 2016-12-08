@@ -24,7 +24,7 @@
             </form>
         </div>
         <hr />
-       <h2>Production Description</h2>
+       <h2>Product Description</h2>
        <p>Collect and customize over 450 Forzavista™ cars <br />
            in the most beautiful and comprehensive racing game of this generation. <br />
            Compete in epic multiplayer races on world-famous tracks.<br />

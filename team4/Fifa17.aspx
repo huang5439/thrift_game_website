@@ -24,7 +24,7 @@
             </form>
         </div>
         <hr />
-        <h2>Production Description</h2>
+        <h2>Product Description</h2>
         <p>
             FIFA 17 base game
             UP TO 40 JUMBO PREMIUM GOLD PACKS: 2 per week over 20 weeks<br />

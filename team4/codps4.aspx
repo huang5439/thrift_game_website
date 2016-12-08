@@ -24,7 +24,7 @@
             </form>
         </div>
          <hr />
-        <h2>Production Description</h2>
+        <h2>Product Description</h2>
         <p>Call of Duty: Infinite Warfare delivers something for every Call of Duty fan with three unique game modes: <br />
             Campaign, Multiplayer, and Zombies. Delivering a rich and engaging narrative in a setting unlike anything to date in a Call of Duty game, <br />
             the campaign is a return to the franchise’s gritty, military roots throughout new environments never before seen in the franchise.<br />

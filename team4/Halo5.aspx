@@ -24,7 +24,7 @@
             </form>
         </div>
         <hr />
-       <h2>Production Description</h2>
+       <h2>Product Description</h2>
        <p>An intense new story on a galactic scale: Play as the Master Chief and Spartan Locke as the hunt plays out across three new worlds. <br />
 Your team is your weapon: Choose how to achieve objectives while playing solo with AI teammates or with friends in a 4-player cooperative experience. <br />
 Warzone: New, massive-scale multiplayer mode that supports 24-player battles with both friendly and enemy AI dropping in. It’s nonstop action when you confront Spartans, Covenant, and Forerunners while trying to complete a variety of objectives. <br />

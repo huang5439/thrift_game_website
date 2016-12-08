@@ -23,7 +23,7 @@
             </form>
         </div>
         <hr />
-        <h2>Production Description</h2>
+        <h2>Product Description</h2>
         <p>
             About Call of Duty: Infinite Warfare
             <br />
